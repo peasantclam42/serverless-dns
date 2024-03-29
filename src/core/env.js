@@ -116,7 +116,7 @@ const defaults = new Map(
     // secondary doh upstream
     CF_DNS_RESOLVER_URL_2: {
       type: "string",
-      default: "https://serverless-dns.ntantardini2.workers.dev/1:-L8AOAQAfwP_-d___9___9jV9vMxAEpqAFg=",
+      default: "https://8.8.8.8",
     },
     // upstream recursive rethinkdns resolver running on Fly.io
     MAX_DNS_RESOLVER_URL: {
